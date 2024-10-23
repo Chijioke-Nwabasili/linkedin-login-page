@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/LinkedIn-Logo.svg" alt="linkedin logo" width="150" />
+    </header>
+
+    <main>
+      <form>
+        <h1>Sign in</h1>
+        <div class="form-group">
+          <button class="btn-google-icon">
+            <img
+              src="images/icons8-google.svg"
+              alt="google icon"
+              class="icon"
+            />
+            <span>Continue with Google</span>
+          </button>
+        </div>
+
+        <div class="form-group">
+          <button class="btn-apple-icon">
+            <img
+              src="images/icons8-apple.svg"
+              alt="apple icon"
+              class="icon"
+            /><span>Sign in with Apple</span>
+          </button>
+        </div>
+
+        <div class="horizontal-break">
+          <hr />
+          <span>or</span>
+          <hr />
+        </div>
+
+        <div class="form-group">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email or phone"
+          />
+        </div>
+
+        <div class="form-group">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+        </div>
+
+        <div class="form-group">
+          <a href="#">Forgot password?</a>
+        </div>
+
+        <div class="form-group">
+          <button class="btn-sign-in">Sign in</button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <p>New to LinkedIn? <a href="#">Join now</a></p>
+    </footer>
+  </body>
+</html>
